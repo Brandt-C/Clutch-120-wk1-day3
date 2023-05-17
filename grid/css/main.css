@@ -1,0 +1,29 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 4px 4px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "first_q title last_q"
+      "wax_gib full wan_gib"
+      "wax_cres new wan_cres";
+  }
+  
+  .title { grid-area: title; }
+  
+  .full { grid-area: full; }
+  
+  .new { grid-area: new; }
+  
+  .wax_gib { grid-area: wax_gib; }
+  
+  .wax_cres { grid-area: wax_cres; }
+  
+  .wan_gib { grid-area: wan_gib; }
+  
+  .wan_cres { grid-area: wan_cres; }
+  
+  .first_q { grid-area: first_q; }
+  
+  .last_q { grid-area: last_q; }
+  
