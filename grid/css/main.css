@@ -7,9 +7,27 @@
       "first_q title last_q"
       "wax_gib full wan_gib"
       "wax_cres new wan_cres";
+    background-color: rgb(221, 218, 218);
+    border: 4px solid black;
+    border-radius: 2%;
+    margin-top: 7%;
+    place-items: center;
+  }
+h3 {
+    font-size: xx-large;
+}
+
+  img {
+    border-radius: 8%;
   }
   
-  .title { grid-area: title; }
+  .title { 
+    grid-area: title;
+    border: 4px solid rgb(240, 50, 50);
+    padding: 7px;
+    border-radius: 4%;
+    background-color: white;
+ }
   
   .full { grid-area: full; }
   
