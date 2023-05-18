@@ -2,3 +2,18 @@
     border-bottom: 1px darkgrey;
     margin-top: 5px;
 }
+
+#logo {
+    color: rgb(90, 90, 207);
+    font-size: 400%;
+}
+#new-act{
+    background-color: rgb(24, 179, 24);
+}
+
+#create {
+    color: black;
+}
+#cont {
+    height: auto;
+}
